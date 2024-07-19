@@ -1,0 +1,35 @@
+name: Epic
+description: Create a epic
+title: '[Epic] '
+labels:
+  - 'Epic'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the epic in a single sentence
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the epic in more detail
+      placeholder: |
+        As a [type of user], I want [some goal] so that [some reason].
+    validations:
+        required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Tasks
+        List the tasks that need to be completed to achieve the acceptance criteria
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: List the tasks that need to be completed to achieve the acceptance criteria
+      placeholder: |
+        - [ ] Task 1
+        - [ ] Task 2
+        - [ ] Task 3
+    validations:
+      required: true
