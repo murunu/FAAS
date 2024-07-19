@@ -1,6 +1,8 @@
 name: Epic
 description: Create a epic
 title: '[Epic] '
+projects:
+  - 'murunu/4'
 labels:
   - 'Epic'
 body:

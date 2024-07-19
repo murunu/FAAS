@@ -1,6 +1,8 @@
 name: Task
 description: Create a Task
 title: '[Task] '
+projects:
+  - 'murunu/4'
 labels:
   - 'Task'
 body:

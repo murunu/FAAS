@@ -1,6 +1,8 @@
 name: User story
 description: Create a user story
 title: '[User story] '
+projects:
+  - 'murunu/4'
 labels:
   - 'User-story'
 body:
